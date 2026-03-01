@@ -1,3 +1,4 @@
 -- This module serves as the root of the `RegexNFA` library.
 -- Import modules here that should be built as part of the library.
-import RegexNFA.Basic
+import RegexNFA.Regex
+import RegexNFA.NFA

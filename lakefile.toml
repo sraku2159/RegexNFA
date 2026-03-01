@@ -8,3 +8,7 @@ name = "RegexNFA"
 [[lean_exe]]
 name = "regexnfa"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
