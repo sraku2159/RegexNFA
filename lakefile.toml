@@ -1,0 +1,10 @@
+name = "RegexNFA"
+version = "0.1.0"
+defaultTargets = ["regexnfa"]
+
+[[lean_lib]]
+name = "RegexNFA"
+
+[[lean_exe]]
+name = "regexnfa"
+root = "Main"
