@@ -24,4 +24,4 @@ def NFA.Accepts (nfa : NFA σ) (w : List σ) : Prop :=
   ∃ qf, qf ∈ nfa.F ∧ Run nfa nfa.q₀ w qf
 
 -- 便利な記法
-notation:50 nfa " ~ " w => NFA.Accepts nfa w
+notation:50 nfa " accepts " w => NFA.Accepts nfa w
